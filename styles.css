@@ -1,3 +1,7 @@
+body {
+  font-family: 'Helvetica' sans serif;
+}
+
 header,
 nav {
   background-color: #303030;
@@ -10,13 +14,27 @@ a {
 }
 
 article {
-  width: 20vw;
   border: ;
+  box-shadow: 10px 10px 5px -7px rgba(214,210,214,1);
+  width: 23vw;
+  overflow-wrap: break-word;
+  margin: .75em;
+  display: inline-block;
 }
 
 section {
   background-color: #fff;
 }
+
+main {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 18px;
+}
+
  .logo {
   display: inline;
   padding-top: 10px;
@@ -44,6 +62,12 @@ section {
   padding-top: 8%;
  }
 
+ .playlist-url {
+  background-color: #f0f0f0;
+  color: #686868;
+  padding: 5px;
+ }
+
  .card {
   background: url("images/SteveHolt2.png") no-repeat;
 }
@@ -54,4 +78,8 @@ section {
 
 .arrow {
   padding-top: 5px;
+}
+
+.num {
+  padding-bottom: 10px;
 }
